@@ -1,0 +1,250 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.40 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.40 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: carry_select.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "carry_select.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "carry_select"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-vq100
+
+---- Source Options
+Top Module Name                    : carry_select
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : ONLY
+Write Timing Constraints           : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : carry_select.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+enable_auto_floorplanning          : No
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+Module <carry_select> compiled
+Module <ripple_carry_5> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"carry_select.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 18 Connection to output port 'out' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 18 Connection to input port 'in0' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 18 Connection to input port 'in1' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 20 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 20 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 20 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 21 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 21 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 21 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 22 Connection to output port 'out' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 22 Connection to input port 'in0' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 22 Connection to input port 'in1' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 24 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 24 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 24 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 25 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 25 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 25 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 26 Connection to output port 'out' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 26 Connection to input port 'in0' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 26 Connection to input port 'in1' does not match port size
+Analyzing top module <carry_select>.
+Module <carry_select> is correct for synthesis.
+ 
+Analyzing module <ripple_carry_5>.
+	N = 5
+Module <ripple_carry_5> is correct for synthesis.
+ 
+Analyzing module <fa>.
+Module <fa> is correct for synthesis.
+ 
+Analyzing module <ripple_carry_7>.
+	N = 7
+Module <ripple_carry_7> is correct for synthesis.
+ 
+Analyzing module <mux21>.
+Module <mux21> is correct for synthesis.
+ 
+Analyzing module <ripple_carry_9>.
+	N = 4
+Module <ripple_carry_9> is correct for synthesis.
+ 
+Analyzing module <ripple_carry_11>.
+	N = 4
+Module <ripple_carry_11> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <fa>.
+    Related source file is "fa.v".
+    Found 1-bit xor3 for signal <sum>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <fa> synthesized.
+
+
+Synthesizing Unit <ripple_carry_11>.
+    Related source file is "carry_select_log.v".
+Unit <ripple_carry_11> synthesized.
+
+
+Synthesizing Unit <ripple_carry_9>.
+    Related source file is "carry_select_log.v".
+Unit <ripple_carry_9> synthesized.
+
+
+Synthesizing Unit <mux21>.
+    Related source file is "mux21.v".
+Unit <mux21> synthesized.
+
+
+Synthesizing Unit <ripple_carry_7>.
+    Related source file is "carry_select_log.v".
+Unit <ripple_carry_7> synthesized.
+
+
+Synthesizing Unit <ripple_carry_5>.
+    Related source file is "carry_select_log.v".
+Unit <ripple_carry_5> synthesized.
+
+
+Synthesizing Unit <carry_select>.
+    Related source file is "carry_select_log.v".
+WARNING:Xst:1780 - Signal <s0<4:0>> is never used or assigned.
+WARNING:Xst:1780 - Signal <s1<4:0>> is never used or assigned.
+Unit <carry_select> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 35
+ 1-bit xor3                        : 35
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : carry_select.ngr
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 98
+
+Cell Usage :
+# BELS                             : 2
+#      GND                         : 1
+#      VCC                         : 1
+=========================================================================
+CPU : 3.11 / 3.59 s | Elapsed : 3.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 126064 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   23 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

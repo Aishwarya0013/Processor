@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn __projnav/mux21.xst -ofn mux21.syr

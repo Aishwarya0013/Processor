@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn __projnav/ripple_carry_n.xst -ofn ripple_carry_n.syr
+xst -intstyle ise -ifn __projnav/ripple_carry_n.xst -ofn ripple_carry_n.syr
+xst -intstyle ise -ifn __projnav/ripple_carry_n.xst -ofn ripple_carry_n.syr
+xst -intstyle ise -ifn __projnav/ripple_carry_n.xst -ofn ripple_carry_n.syr

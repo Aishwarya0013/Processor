@@ -1,0 +1,2246 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Create Schematic Symbol".
+
+FATAL ERROR: Unable to open log file __projnav/jhdparse.log in write mode.
+ERROR: vhdtdtfi failed
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+FATAL ERROR: Unable to open log file __projnav/createTF.err in write mode.
+Error creating ha_test.v. Defaulting to boilerplate test fixture.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+FATAL ERROR: Unable to open log file __projnav/createTF.err in write mode.
+Error creating ha_test.v. Defaulting to boilerplate test fixture.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+FATAL ERROR: Unable to open log file __projnav/createTB.err in write mode.
+Error creating ha_test.vhd. Defaulting to boilerplate test bench.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "ha.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Create Schematic Symbol".
+
+Compiling verilog file "fa.v"
+tdtfi(verilog) completed successfully.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+No errors in compilation
+Analysis of file <"fa.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <fa>.
+ERROR:Xst:871 - "fa.v" line 8: Invalid use of input signal <sum> as target.
+ERROR:Xst:871 - "fa.v" line 13: Invalid use of input signal <carry> as target.
+ 
+Found 2 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 120816 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "View RTL Schematic" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+No errors in compilation
+Analysis of file <"fa.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+No errors in compilation
+Analysis of file <"fa.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <fa>.
+ERROR:Xst:871 - "fa.v" line 8: Invalid use of input signal <sum> as target.
+ERROR:Xst:871 - "fa.v" line 13: Invalid use of input signal <carry> as target.
+ 
+Found 2 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 119600 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "View RTL Schematic" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+No errors in compilation
+Analysis of file <"fa.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+No errors in compilation
+Analysis of file <"fa.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <fa>.
+Module <fa> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <fa>.
+    Related source file is "fa.v".
+    Found 1-bit xor3 for signal <sum>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <fa> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 1
+ 1-bit xor3                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "fa.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux21.v"
+ERROR:HDLCompilers:207 - "mux21.v" line 5 Signal 'a' is not referenced in the module port list
+ERROR:HDLCompilers:207 - "mux21.v" line 5 Signal 'b' is not referenced in the module port list
+ERROR:HDLCompilers:208 - "mux21.v" line 3 Port reference 'in0' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - "mux21.v" line 3 Port reference 'in1' was not declared as input, inout or output
+Module <mux21> compiled
+ERROR:HDLCompilers:26 - "mux21.v" line 6 expecting 'endmodule', found 'case'
+Analysis of file <"mux21.prj"> failed.
+--> 
+
+Total memory usage is 120240 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux21.v"
+ERROR:HDLCompilers:207 - "mux21.v" line 5 Signal 'a' is not referenced in the module port list
+ERROR:HDLCompilers:207 - "mux21.v" line 5 Signal 'b' is not referenced in the module port list
+ERROR:HDLCompilers:28 - "mux21.v" line 8 'in0' has not been declared
+ERROR:HDLCompilers:28 - "mux21.v" line 9 'in1' has not been declared
+ERROR:HDLCompilers:208 - "mux21.v" line 3 Port reference 'in0' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - "mux21.v" line 3 Port reference 'in1' was not declared as input, inout or output
+Module <mux21> compiled
+Analysis of file <"mux21.prj"> failed.
+--> 
+
+Total memory usage is 120176 kilobytes
+
+Number of errors   :    6 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+ERROR:HDLCompilers:247 - "mux21.v" line 8 Reference to scalar wire 'out' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "mux21.v" line 8 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "mux21.v" line 9 Reference to scalar wire 'out' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "mux21.v" line 9 Illegal left hand side of blocking assignment
+Analysis of file <"mux21.prj"> failed.
+--> 
+
+Total memory usage is 119664 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"mux21.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"mux21.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"mux21.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <mux21>.
+WARNING:Xst:905 - "mux21.v" line 7: The signals <s, in0, in1> are missing in the sensitivity list of always block.
+Module <mux21> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mux21>.
+    Related source file is "mux21.v".
+Unit <mux21> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "mux21.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"mux21.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+ERROR:HDLCompilers:246 - "mux21.v" line 6 Reference to scalar reg 'out' is not a legal net lvalue
+ERROR:HDLCompilers:53 - "mux21.v" line 6 Illegal left hand side of continuous assign
+Analysis of file <"mux21.prj"> failed.
+--> 
+
+Total memory usage is 119408 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"mux21.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry> compiled
+ERROR:HDLCompilers:55 - "ripple_carry.v" line 16 Bit-select of scalar wire 's' is illegal
+ERROR:HDLCompilers:53 - "ripple_carry.v" line 16 Illegal left hand side of continuous assign
+Analysis of file <"ripple_carry.prj"> failed.
+--> 
+
+Total memory usage is 120176 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry> compiled
+ERROR:HDLCompilers:55 - "ripple_carry.v" line 16 Bit-select of scalar wire 's' is illegal
+ERROR:HDLCompilers:53 - "ripple_carry.v" line 16 Illegal left hand side of continuous assign
+Analysis of file <"ripple_carry.prj"> failed.
+--> 
+
+Total memory usage is 119472 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry> compiled
+ERROR:HDLCompilers:55 - "ripple_carry.v" line 16 Bit-select of scalar wire 's' is illegal
+ERROR:HDLCompilers:53 - "ripple_carry.v" line 16 Illegal left hand side of continuous assign
+Analysis of file <"ripple_carry.prj"> failed.
+--> 
+
+Total memory usage is 120048 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <nbrc_st> compiled
+ERROR:HDLCompilers:55 - "ripple_carry.v" line 14 Bit-select of scalar wire 'c' is illegal
+ERROR:HDLCompilers:185 - "ripple_carry.v" line 14 Illegal right hand side of continuous assign
+Analysis of file <"nbrc_st.prj"> failed.
+--> 
+
+Total memory usage is 119664 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <nbrc_st> compiled
+No errors in compilation
+Analysis of file <"nbrc_st.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <nbrc_st> compiled
+No errors in compilation
+Analysis of file <"nbrc_st.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <nbrc_st>.
+	N = 4
+Module <nbrc_st> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <nbrc_st>.
+    Related source file is "ripple_carry.v".
+    Found 4-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <$n0000> created at line 15.
+    Found 1-bit xor2 for signal <$n0001> created at line 15.
+    Found 1-bit xor2 for signal <$n0002> created at line 15.
+    Found 1-bit xor2 for signal <$n0003> created at line 15.
+    Found 1-bit xor2 for signal <$n0004> created at line 15.
+    Found 1-bit xor2 for signal <$n0005> created at line 15.
+    Found 1-bit xor2 for signal <$n0006> created at line 15.
+    Found 1-bit xor2 for signal <$n0007> created at line 15.
+    Found 1-bit xor2 for signal <$n0008> created at line 15.
+    Found 1-bit xor2 for signal <$n0009> created at line 15.
+    Found 1-bit xor2 for signal <$n0010> created at line 15.
+    Found 1-bit xor2 for signal <$n0011> created at line 15.
+Unit <nbrc_st> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 16
+ 1-bit xor2                        : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry_n> compiled
+No errors in compilation
+Analysis of file <"ripple_carry_n.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "ripple_carry.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry_n> compiled
+No errors in compilation
+Analysis of file <"ripple_carry_n.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry_n> compiled
+No errors in compilation
+Analysis of file <"ripple_carry_n.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ripple_carry_n>.
+	N = 4
+Module <ripple_carry_n> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ripple_carry_n>.
+    Related source file is "ripple_carry.v".
+    Found 4-bit xor2 for signal <s<3:0>>.
+    Found 1-bit xor2 for signal <$n0000> created at line 14.
+    Found 1-bit xor2 for signal <$n0001> created at line 14.
+    Found 1-bit xor2 for signal <$n0002> created at line 14.
+    Found 1-bit xor2 for signal <$n0003> created at line 14.
+    Found 1-bit xor2 for signal <$n0004> created at line 14.
+    Found 1-bit xor2 for signal <$n0005> created at line 14.
+    Found 1-bit xor2 for signal <$n0006> created at line 14.
+    Found 1-bit xor2 for signal <$n0007> created at line 14.
+    Found 1-bit xor2 for signal <$n0008> created at line 14.
+    Found 1-bit xor2 for signal <$n0009> created at line 14.
+    Found 1-bit xor2 for signal <$n0010> created at line 14.
+    Found 1-bit xor2 for signal <$n0011> created at line 14.
+Unit <ripple_carry_n> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 16
+ 1-bit xor2                        : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+ERROR:HDLCompilers:28 - "ripple_carry.v" line 9 'cin' has not been declared
+ERROR:HDLCompilers:26 - "ripple_carry.v" line 15 expecting 'end', found 'endgenerate'
+ERROR:HDLCompilers:26 - "ripple_carry.v" line 17 expecting 'endgenerate', found 'EOF'
+ERROR:HDLCompilers:208 - "ripple_carry.v" line 4 Port reference 'cin' was not declared as input, inout or output
+Module <ripple_carry_n> compiled
+ERROR:HDLCompilers:26 - "ripple_carry.v" line 17 expecting 'endmodule', found 'EOF'
+Analysis of file <"ripple_carry_n.prj"> failed.
+--> 
+
+Total memory usage is 119600 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+ERROR:HDLCompilers:26 - "ripple_carry.v" line 16 expecting 'end', found 'endgenerate'
+ERROR:HDLCompilers:26 - "ripple_carry.v" line 18 expecting 'endgenerate', found 'EOF'
+Module <ripple_carry_n> compiled
+ERROR:HDLCompilers:26 - "ripple_carry.v" line 18 expecting 'endmodule', found 'EOF'
+Analysis of file <"ripple_carry_n.prj"> failed.
+--> 
+
+Total memory usage is 119600 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+ERROR:HDLCompilers:26 - "ripple_carry.v" line 15 expecting 'end', found 'endgenerate'
+ERROR:HDLCompilers:26 - "ripple_carry.v" line 17 expecting 'endgenerate', found 'endmodule'
+Module <ripple_carry_n> compiled
+ERROR:HDLCompilers:26 - "ripple_carry.v" line 18 expecting 'endmodule', found 'EOF'
+Analysis of file <"ripple_carry_n.prj"> failed.
+--> 
+
+Total memory usage is 119920 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry_n> compiled
+No errors in compilation
+Analysis of file <"ripple_carry_n.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry_n> compiled
+No errors in compilation
+Analysis of file <"ripple_carry_n.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:309 - "ripple_carry.v" line 14 Module instance must have an instance name.
+ERROR:HDLCompilers:87 - "ripple_carry.v" line 14 Could not find module/primitive 'fa'
+--> 
+
+Total memory usage is 120368 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "View RTL Schematic" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry_n> compiled
+No errors in compilation
+Analysis of file <"ripple_carry_n.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry_n> compiled
+No errors in compilation
+Analysis of file <"ripple_carry_n.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ripple_carry_n>.
+	N = 4
+Module <ripple_carry_n> is correct for synthesis.
+ 
+Analyzing module <fa>.
+Module <fa> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <fa>.
+    Related source file is "fa.v".
+    Found 1-bit xor3 for signal <sum>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <fa> synthesized.
+
+
+Synthesizing Unit <ripple_carry_n>.
+    Related source file is "ripple_carry.v".
+Unit <ripple_carry_n> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 4
+ 1-bit xor3                        : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "ripple_carry.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+ERROR:HDLCompilers:28 - "carry_select_log.v" line 7 'cin' has not been declared
+ERROR:HDLCompilers:28 - "carry_select_log.v" line 11 's' has not been declared
+ERROR:HDLCompilers:26 - "carry_select_log.v" line 25 unexpected token: 'act_carry3'
+ERROR:HDLCompilers:26 - "carry_select_log.v" line 29 expecting '=', found ','
+ERROR:HDLCompilers:26 - "carry_select_log.v" line 29 expecting '=', found ')'
+ERROR:HDLCompilers:207 - "carry_select_log.v" line 31 Signal 's' is not referenced in the module port list
+ERROR:HDLCompilers:27 - "carry_select_log.v" line 32 Illegal redeclaration of 'a'
+ERROR:HDLCompilers:27 - "carry_select_log.v" line 32 Illegal redeclaration of 'b'
+ERROR:HDLCompilers:27 - "carry_select_log.v" line 34 Illegal redeclaration of 'cin'
+ERROR:HDLCompilers:208 - "carry_select_log.v" line 3 Port reference 'sum' was not declared as input, inout or output
+Module <carry_select> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Analysis of file <"carry_select.prj"> failed.
+--> 
+
+Total memory usage is 119472 kilobytes
+
+Number of errors   :   10 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+ERROR:HDLCompilers:26 - "carry_select_log.v" line 26 unexpected token: 'act_carry3'
+ERROR:HDLCompilers:26 - "carry_select_log.v" line 30 expecting '=', found ','
+ERROR:HDLCompilers:26 - "carry_select_log.v" line 30 expecting '=', found ')'
+ERROR:HDLCompilers:207 - "carry_select_log.v" line 32 Signal 's' is not referenced in the module port list
+ERROR:HDLCompilers:27 - "carry_select_log.v" line 33 Illegal redeclaration of 'a'
+ERROR:HDLCompilers:27 - "carry_select_log.v" line 33 Illegal redeclaration of 'b'
+ERROR:HDLCompilers:27 - "carry_select_log.v" line 35 Illegal redeclaration of 'cin'
+Module <carry_select> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+Analysis of file <"carry_select.prj"> failed.
+--> 
+
+Total memory usage is 119984 kilobytes
+
+Number of errors   :    7 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+Module <carry_select> compiled
+Module <ripple_carry_5> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+ERROR:HDLCompilers:55 - "carry_select_log.v" line 8 Bit-select of scalar wire 'c' is illegal
+ERROR:HDLCompilers:53 - "carry_select_log.v" line 8 Illegal left hand side of continuous assign
+Analysis of file <"carry_select.prj"> failed.
+--> 
+
+Total memory usage is 120176 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+Module <carry_select> compiled
+Module <ripple_carry_5> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"carry_select.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+Module <carry_select> compiled
+Module <ripple_carry_5> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"carry_select.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 10 Most significant bit operand in part-select of vector wire 'a' is out of range
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 10 Most significant bit operand in part-select of vector wire 'b' is out of range
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 13 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 13 Most significant bit operand in part-select of vector wire 'a' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 13 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 13 Most significant bit operand in part-select of vector wire 'b' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 13 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 14 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 14 Most significant bit operand in part-select of vector wire 'a' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 14 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 14 Most significant bit operand in part-select of vector wire 'b' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 14 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 15 Connection to output port 'out' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 15 Connection to input port 'in0' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 15 Connection to input port 'in1' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 17 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 17 Most significant bit operand in part-select of vector wire 'a' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 17 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 17 Most significant bit operand in part-select of vector wire 'b' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 17 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 18 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 18 Most significant bit operand in part-select of vector wire 'a' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 18 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 18 Most significant bit operand in part-select of vector wire 'b' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 18 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 19 Connection to output port 'out' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 19 Connection to input port 'in0' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 19 Connection to input port 'in1' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 21 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 21 Most significant bit operand in part-select of vector wire 'a' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 21 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 21 Most significant bit operand in part-select of vector wire 'b' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 21 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 22 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 22 Most significant bit operand in part-select of vector wire 'a' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 22 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:192 - "carry_select_log.v" line 22 Most significant bit operand in part-select of vector wire 'b' is out of range
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 22 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 23 Connection to output port 'out' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 23 Connection to input port 'in0' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 23 Connection to input port 'in1' does not match port size
+Analyzing top module <carry_select>.
+ERROR:Xst:792 - "carry_select_log.v" line 10: Index 4 is not in range of signal <a>.
+ERROR:Xst:792 - "carry_select_log.v" line 10: Index 4 is not in range of signal <b>.
+ERROR:Xst:792 - "carry_select_log.v" line 13: Index 5 is not in range of signal <a>.
+ERROR:Xst:792 - "carry_select_log.v" line 13: Index 5 is not in range of signal <b>.
+ERROR:Xst:792 - "carry_select_log.v" line 14: Index 5 is not in range of signal <a>.
+ERROR:Xst:792 - "carry_select_log.v" line 14: Index 5 is not in range of signal <b>.
+ERROR:Xst:792 - "carry_select_log.v" line 17: Index 12 is not in range of signal <a>.
+ERROR:Xst:792 - "carry_select_log.v" line 17: Index 12 is not in range of signal <b>.
+ERROR:Xst:792 - "carry_select_log.v" line 18: Index 12 is not in range of signal <a>.
+ERROR:Xst:792 - "carry_select_log.v" line 18: Index 12 is not in range of signal <b>.
+ERROR:Xst:792 - "carry_select_log.v" line 21: Index 21 is not in range of signal <a>.
+ERROR:Xst:792 - "carry_select_log.v" line 21: Index 21 is not in range of signal <b>.
+ERROR:Xst:792 - "carry_select_log.v" line 22: Index 21 is not in range of signal <a>.
+ERROR:Xst:792 - "carry_select_log.v" line 22: Index 21 is not in range of signal <b>.
+ 
+Found 14 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 120240 kilobytes
+
+Number of errors   :   14 (   0 filtered)
+Number of warnings :   41 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "View RTL Schematic" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "carry_select_log.v"
+ERROR:HDLCompilers:26 - "carry_select_log.v" line 3 unexpected token: '('
+Module <carry_select> compiled
+ERROR:HDLCompilers:26 - "carry_select_log.v" line 3 expecting 'endmodule', found 'EOF'
+Analysis of file <"carry_select.prj"> failed.
+--> 
+
+Total memory usage is 120240 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "ripple_carry.v"
+ERROR:HDLCompilers:208 - "ripple_carry.v" line 4 Port reference 'cout' was not declared as input, inout or output
+Module <ripple_carry_n> compiled
+Analysis of file <"ripple_carry_n.prj"> failed.
+--> 
+
+Total memory usage is 119984 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry_n> compiled
+No errors in compilation
+Analysis of file <"ripple_carry_n.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry_n> compiled
+No errors in compilation
+Analysis of file <"ripple_carry_n.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ripple_carry_n>.
+	N = 4
+Module <ripple_carry_n> is correct for synthesis.
+ 
+Analyzing module <fa>.
+Module <fa> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <fa>.
+    Related source file is "fa.v".
+    Found 1-bit xor3 for signal <sum>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <fa> synthesized.
+
+
+Synthesizing Unit <ripple_carry_n>.
+    Related source file is "ripple_carry.v".
+Unit <ripple_carry_n> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 4
+ 1-bit xor3                        : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+Module <carry_select> compiled
+Module <ripple_carry_5> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+No errors in compilation
+Analysis of file <"carry_select.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+Module <carry_select> compiled
+Module <ripple_carry_5> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"carry_select.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+Module <carry_select> compiled
+Module <ripple_carry_5> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"carry_select.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+Module <carry_select> compiled
+Module <ripple_carry_5> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"carry_select.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+Module <carry_select> compiled
+Module <ripple_carry_5> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"carry_select.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 18 Connection to output port 'out' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 18 Connection to input port 'in0' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 18 Connection to input port 'in1' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 20 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 20 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 20 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 21 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 21 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 21 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 22 Connection to output port 'out' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 22 Connection to input port 'in0' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 22 Connection to input port 'in1' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 24 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 24 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 24 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 25 Connection to output port 's' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 25 Connection to input port 'a' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 25 Connection to input port 'b' does not match port size
+WARNING:HDLCompilers:261 - "carry_select_log.v" line 26 Connection to output port 'out' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 26 Connection to input port 'in0' does not match port size
+WARNING:HDLCompilers:259 - "carry_select_log.v" line 26 Connection to input port 'in1' does not match port size
+Analyzing top module <carry_select>.
+Module <carry_select> is correct for synthesis.
+ 
+Analyzing module <ripple_carry_5>.
+	N = 5
+Module <ripple_carry_5> is correct for synthesis.
+ 
+Analyzing module <fa>.
+Module <fa> is correct for synthesis.
+ 
+Analyzing module <ripple_carry_7>.
+	N = 7
+Module <ripple_carry_7> is correct for synthesis.
+ 
+Analyzing module <mux21>.
+Module <mux21> is correct for synthesis.
+ 
+Analyzing module <ripple_carry_9>.
+	N = 4
+Module <ripple_carry_9> is correct for synthesis.
+ 
+Analyzing module <ripple_carry_11>.
+	N = 4
+Module <ripple_carry_11> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <fa>.
+    Related source file is "fa.v".
+    Found 1-bit xor3 for signal <sum>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <fa> synthesized.
+
+
+Synthesizing Unit <ripple_carry_11>.
+    Related source file is "carry_select_log.v".
+Unit <ripple_carry_11> synthesized.
+
+
+Synthesizing Unit <ripple_carry_9>.
+    Related source file is "carry_select_log.v".
+Unit <ripple_carry_9> synthesized.
+
+
+Synthesizing Unit <mux21>.
+    Related source file is "mux21.v".
+Unit <mux21> synthesized.
+
+
+Synthesizing Unit <ripple_carry_7>.
+    Related source file is "carry_select_log.v".
+Unit <ripple_carry_7> synthesized.
+
+
+Synthesizing Unit <ripple_carry_5>.
+    Related source file is "carry_select_log.v".
+Unit <ripple_carry_5> synthesized.
+
+
+Synthesizing Unit <carry_select>.
+    Related source file is "carry_select_log.v".
+WARNING:Xst:1780 - Signal <s0<4:0>> is never used or assigned.
+WARNING:Xst:1780 - Signal <s1<4:0>> is never used or assigned.
+Unit <carry_select> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 35
+ 1-bit xor3                        : 35
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "carry_select_log.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+Module <carry_select> compiled
+Module <ripple_carry_5> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"carry_select.prj"> succeeded.
+ 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+

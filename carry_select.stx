@@ -1,0 +1,32 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.37 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v"
+Module <fa> compiled
+Compiling verilog file "carry_select_log.v"
+Module <carry_select> compiled
+Module <ripple_carry_5> compiled
+Module <ripple_carry_7> compiled
+Module <ripple_carry_9> compiled
+Module <ripple_carry_11> compiled
+Compiling verilog file "mux21.v"
+Module <mux21> compiled
+No errors in compilation
+Analysis of file <"carry_select.prj"> succeeded.
+ 
+CPU : 0.08 / 0.45 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 119600 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

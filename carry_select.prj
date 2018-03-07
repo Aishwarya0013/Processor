@@ -1,0 +1,3 @@
+verilog work "fa.v"
+verilog work "carry_select_log.v"
+verilog work "mux21.v"

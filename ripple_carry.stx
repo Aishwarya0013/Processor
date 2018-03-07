@@ -1,0 +1,22 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.38 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ripple_carry.v"
+Module <ripple_carry> compiled
+ERROR:HDLCompilers:55 - "ripple_carry.v" line 16 Bit-select of scalar wire 's' is illegal
+ERROR:HDLCompilers:53 - "ripple_carry.v" line 16 Illegal left hand side of continuous assign
+Analysis of file <"ripple_carry.prj"> failed.
+--> 
+
+Total memory usage is 120048 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
